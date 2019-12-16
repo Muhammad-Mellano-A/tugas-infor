@@ -58,7 +58,7 @@ lp("min",f.obj, f.con, f.dir, f.rhs, compute.sens=TRUE)$duals.to
 #No 2
 
 f.obj <- c(8000, 12000)
-#From (max and min z=3x+9y)
+#From (max and min z=8000x+12000y)
 
 f.con <- matrix(c(9, 12,
                   1, 3),nrow=2,byrow=TRUE)
